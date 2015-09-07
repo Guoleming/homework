@@ -4,7 +4,6 @@ public class SimpleThread extends Thread {
 	private int countDown = 5;
 	private int threadNumber;
 	private static int threadCount = 0;
-
 	public SimpleThread() {
 		threadNumber = ++threadCount;
 		System.out.println("Making " + threadNumber);
