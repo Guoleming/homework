@@ -8,7 +8,6 @@ public class SimpleThread extends Thread {
 		threadNumber = ++threadCount;
 		System.out.println("Making " + threadNumber);
 	}
-
 	public void run() {
 		while (true) {
 			System.out
